@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20965A4B18420C2100389787 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20965A4A18420C2100389787 /* Cocoa.framework */; };
+		20965A6018420C2100389787 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20965A5F18420C2100389787 /* XCTest.framework */; };
+		20965A6118420C2100389787 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20965A4A18420C2100389787 /* Cocoa.framework */; };
+		20965A6418420C2100389787 /* CocoaHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20965A4718420C2100389787 /* CocoaHash.framework */; };
+		20965A6C18420C2100389787 /* CocoaHashTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20965A6B18420C2100389787 /* CocoaHashTests.m */; };
+		20965A9318421EF600389787 /* NSData+Hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 20965A8D18421EF600389787 /* NSData+Hash.h */; };
+		20965A9418421EF600389787 /* NSData+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 20965A8E18421EF600389787 /* NSData+Hash.m */; };
+		20965A9518421EF600389787 /* NSData+HexString.h in Headers */ = {isa = PBXBuildFile; fileRef = 20965A8F18421EF600389787 /* NSData+HexString.h */; };
+		20965A9618421EF600389787 /* NSData+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 20965A9018421EF600389787 /* NSData+HexString.m */; };
+		20965A9718421EF600389787 /* NSString+Hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 20965A9118421EF600389787 /* NSString+Hash.h */; };
+		20965A9818421EF600389787 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 20965A9218421EF600389787 /* NSString+Hash.m */; };
+		20965A9918421F6400389787 /* NSData+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 20965A8E18421EF600389787 /* NSData+Hash.m */; };
+		20965A9A18421F6600389787 /* NSData+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 20965A9018421EF600389787 /* NSData+HexString.m */; };
+		20965A9B18421F6800389787 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 20965A9218421EF600389787 /* NSString+Hash.m */; };
+		20965AA018421F9400389787 /* CocoaHash-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 20965A9E18421F9400389787 /* CocoaHash-Prefix.pch */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20965A6218420C2100389787 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20965A3E18420C2100389787 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20965A4618420C2100389787;
+			remoteInfo = CocoaHash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20965A4718420C2100389787 /* CocoaHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaHash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20965A4A18420C2100389787 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		20965A4D18420C2100389787 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		20965A4E18420C2100389787 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		20965A4F18420C2100389787 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		20965A5E18420C2100389787 /* CocoaHashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaHashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20965A5F18420C2100389787 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		20965A6718420C2100389787 /* CocoaHashTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaHashTests-Info.plist"; sourceTree = "<group>"; };
+		20965A6B18420C2100389787 /* CocoaHashTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaHashTests.m; sourceTree = "<group>"; };
+		20965A8D18421EF600389787 /* NSData+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Hash.h"; sourceTree = "<group>"; };
+		20965A8E18421EF600389787 /* NSData+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Hash.m"; sourceTree = "<group>"; };
+		20965A8F18421EF600389787 /* NSData+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+HexString.h"; sourceTree = "<group>"; };
+		20965A9018421EF600389787 /* NSData+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+HexString.m"; sourceTree = "<group>"; };
+		20965A9118421EF600389787 /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		20965A9218421EF600389787 /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+		20965A9D18421F9400389787 /* CocoaHash-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CocoaHash-Info.plist"; sourceTree = "<group>"; };
+		20965A9E18421F9400389787 /* CocoaHash-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CocoaHash-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20965A4318420C2100389787 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20965A4B18420C2100389787 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20965A5B18420C2100389787 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20965A6118420C2100389787 /* Cocoa.framework in Frameworks */,
+				20965A6018420C2100389787 /* XCTest.framework in Frameworks */,
+				20965A6418420C2100389787 /* CocoaHash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20965A3D18420C2100389787 = {
+			isa = PBXGroup;
+			children = (
+				20965A5018420C2100389787 /* CocoaHash */,
+				20965A9C18421F9400389787 /* CocoaHash Supporting Files */,
+				20965A6518420C2100389787 /* CocoaHashTests */,
+				20965A4918420C2100389787 /* Frameworks */,
+				20965A4818420C2100389787 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20965A4818420C2100389787 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20965A4718420C2100389787 /* CocoaHash.framework */,
+				20965A5E18420C2100389787 /* CocoaHashTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20965A4918420C2100389787 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20965A4A18420C2100389787 /* Cocoa.framework */,
+				20965A5F18420C2100389787 /* XCTest.framework */,
+				20965A4C18420C2100389787 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20965A4C18420C2100389787 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20965A4D18420C2100389787 /* Foundation.framework */,
+				20965A4E18420C2100389787 /* CoreData.framework */,
+				20965A4F18420C2100389787 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		20965A5018420C2100389787 /* CocoaHash */ = {
+			isa = PBXGroup;
+			children = (
+				20965A8D18421EF600389787 /* NSData+Hash.h */,
+				20965A8E18421EF600389787 /* NSData+Hash.m */,
+				20965A8F18421EF600389787 /* NSData+HexString.h */,
+				20965A9018421EF600389787 /* NSData+HexString.m */,
+				20965A9118421EF600389787 /* NSString+Hash.h */,
+				20965A9218421EF600389787 /* NSString+Hash.m */,
+			);
+			path = CocoaHash;
+			sourceTree = "<group>";
+		};
+		20965A6518420C2100389787 /* CocoaHashTests */ = {
+			isa = PBXGroup;
+			children = (
+				20965A6B18420C2100389787 /* CocoaHashTests.m */,
+				20965A6618420C2100389787 /* Supporting Files */,
+			);
+			path = CocoaHashTests;
+			sourceTree = "<group>";
+		};
+		20965A6618420C2100389787 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20965A6718420C2100389787 /* CocoaHashTests-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20965A9C18421F9400389787 /* CocoaHash Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20965A9D18421F9400389787 /* CocoaHash-Info.plist */,
+				20965A9E18421F9400389787 /* CocoaHash-Prefix.pch */,
+			);
+			path = "CocoaHash Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		20965A4418420C2100389787 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20965A9518421EF600389787 /* NSData+HexString.h in Headers */,
+				20965AA018421F9400389787 /* CocoaHash-Prefix.pch in Headers */,
+				20965A9718421EF600389787 /* NSString+Hash.h in Headers */,
+				20965A9318421EF600389787 /* NSData+Hash.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		20965A4618420C2100389787 /* CocoaHash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20965A6F18420C2100389787 /* Build configuration list for PBXNativeTarget "CocoaHash" */;
+			buildPhases = (
+				20965A4218420C2100389787 /* Sources */,
+				20965A4318420C2100389787 /* Frameworks */,
+				20965A4418420C2100389787 /* Headers */,
+				20965A4518420C2100389787 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaHash;
+			productName = CocoaHash;
+			productReference = 20965A4718420C2100389787 /* CocoaHash.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		20965A5D18420C2100389787 /* CocoaHashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20965A7218420C2100389787 /* Build configuration list for PBXNativeTarget "CocoaHashTests" */;
+			buildPhases = (
+				20965A5A18420C2100389787 /* Sources */,
+				20965A5B18420C2100389787 /* Frameworks */,
+				20965A5C18420C2100389787 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20965A6318420C2100389787 /* PBXTargetDependency */,
+			);
+			name = CocoaHashTests;
+			productName = CocoaHashTests;
+			productReference = 20965A5E18420C2100389787 /* CocoaHashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20965A3E18420C2100389787 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Leigh McCulloch";
+				TargetAttributes = {
+					20965A5D18420C2100389787 = {
+						TestTargetID = 20965A4618420C2100389787;
+					};
+				};
+			};
+			buildConfigurationList = 20965A4118420C2100389787 /* Build configuration list for PBXProject "CocoaHash" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 20965A3D18420C2100389787;
+			productRefGroup = 20965A4818420C2100389787 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20965A4618420C2100389787 /* CocoaHash */,
+				20965A5D18420C2100389787 /* CocoaHashTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20965A4518420C2100389787 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20965A5C18420C2100389787 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20965A4218420C2100389787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20965A9418421EF600389787 /* NSData+Hash.m in Sources */,
+				20965A9818421EF600389787 /* NSString+Hash.m in Sources */,
+				20965A9618421EF600389787 /* NSData+HexString.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20965A5A18420C2100389787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20965A6C18420C2100389787 /* CocoaHashTests.m in Sources */,
+				20965A9918421F6400389787 /* NSData+Hash.m in Sources */,
+				20965A9A18421F6600389787 /* NSData+HexString.m in Sources */,
+				20965A9B18421F6800389787 /* NSString+Hash.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20965A6318420C2100389787 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20965A4618420C2100389787 /* CocoaHash */;
+			targetProxy = 20965A6218420C2100389787 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20965A6D18420C2100389787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		20965A6E18420C2100389787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		20965A7018420C2100389787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaHash Supporting Files/CocoaHash-Prefix.pch";
+				INFOPLIST_FILE = "CocoaHash Supporting Files/CocoaHash-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		20965A7118420C2100389787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaHash Supporting Files/CocoaHash-Prefix.pch";
+				INFOPLIST_FILE = "CocoaHash Supporting Files/CocoaHash-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		20965A7318420C2100389787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CocoaHash.framework/Versions/A/CocoaHash";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaHash Supporting Files/CocoaHash-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CocoaHashTests/CocoaHashTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		20965A7418420C2100389787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CocoaHash.framework/Versions/A/CocoaHash";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaHash Supporting Files/CocoaHash-Prefix.pch";
+				INFOPLIST_FILE = "CocoaHashTests/CocoaHashTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20965A4118420C2100389787 /* Build configuration list for PBXProject "CocoaHash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20965A6D18420C2100389787 /* Debug */,
+				20965A6E18420C2100389787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20965A6F18420C2100389787 /* Build configuration list for PBXNativeTarget "CocoaHash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20965A7018420C2100389787 /* Debug */,
+				20965A7118420C2100389787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20965A7218420C2100389787 /* Build configuration list for PBXNativeTarget "CocoaHashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20965A7318420C2100389787 /* Debug */,
+				20965A7418420C2100389787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20965A3E18420C2100389787 /* Project object */;
+}
