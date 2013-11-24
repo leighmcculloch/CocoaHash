@@ -3,6 +3,37 @@ CocoaHash
 
 Categories for NSData and NSString for the hashing algorithms supported by CommonCrypto.
 
+Hashing algorithms supported:
+ * MD2
+ * MD4
+ * MD5
+ * SHA1
+ * SHA224
+ * SHA256
+ * SHA384
+ * SHA512
+
+How to Use
+=========
+
+Include the .h and .m files in ```CocoaHash``` in your project.
+
+![](image-files.png)
+
+Example use:
+
+```
+#import "NSString+Hash.h"
+...
+NSString *filePath = @"/Users/Wookie/myfile.txt";
+NSString *filePathHashStr = [filePath stringByHashingWithSHA256UsingEncoding:NSUTF8StringEncoding];
+NSData *filePathHash = [filePath dataByHashingWithSHA256UsingEncoding:NSUTF8StringEncoding];
+```
+
+In the example, ```filePathHash``` will be ```@"408244fa01ebb60b5d2f73a9a5ba11404c7235e5691f5ea45efcfd5e310797c3"```.
+
+The same functions are available on ```NSData``` as a category, without the encoding parameter.
+
 License
 =========
 
