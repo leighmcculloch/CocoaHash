@@ -44,13 +44,13 @@
 - (NSData *)dataByHashingWithSHA256;
 - (NSData *)dataByHashingWithSHA384;
 - (NSData *)dataByHashingWithSHA512;
-- (NSData *)stringByHashingWithMD2;
-- (NSData *)stringByHashingWithMD4;
-- (NSData *)stringByHashingWithMD5;
-- (NSData *)stringByHashingWithSHA1;
-- (NSData *)stringByHashingWithSHA224;
-- (NSData *)stringByHashingWithSHA256;
-- (NSData *)stringByHashingWithSHA384;
-- (NSData *)stringByHashingWithSHA512;
+- (NSString *)stringByHashingWithMD2;
+- (NSString *)stringByHashingWithMD4;
+- (NSString *)stringByHashingWithMD5;
+- (NSString *)stringByHashingWithSHA1;
+- (NSString *)stringByHashingWithSHA224;
+- (NSString *)stringByHashingWithSHA256;
+- (NSString *)stringByHashingWithSHA384;
+- (NSString *)stringByHashingWithSHA512;
 
 @end
